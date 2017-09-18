@@ -95,7 +95,7 @@ AUDIO_FEATURE_ENABLED_VORBIS_OFFLOAD := true
 AUDIO_USE_LL_AS_PRIMARY_OUTPUT := true
 BOARD_SUPPORTS_SOUND_TRIGGER := true
 BOARD_USES_ALSA_AUDIO := true
-USE_CUSTOM_AUDIO_POLICY := 0
+USE_CUSTOM_AUDIO_POLICY := 1
 #USE_XML_AUDIO_POLICY_CONF := 1
 
 # Bluetooth
@@ -222,6 +222,13 @@ WIFI_DRIVER_FW_PATH_AP := "ap"
 WIFI_DRIVER_FW_PATH_STA := "sta"
 WIFI_DRIVER_FW_PATH_P2P := "p2p"
 WPA_SUPPLICANT_VERSION := VER_0_8_X
+
+
+
+
+# CRYPTS
+#TARGET_CRYPTFS_HW_PATH := device/qcom/common/cryptfs_hw
+
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/gemini/BoardConfigVendor.mk
