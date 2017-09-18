@@ -230,6 +230,24 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 # CRYPTS
 TARGET_CRYPTFS_HW_PATH := vendor/qcom/opensource/cryptfs_hw
 
+# QCOM
+#include hardware/qcom/msm8996/msm8996.mk
+#include hardware/qcom/audio/Android.mk
+#include hardware/qcom/bootctrl/Android.mk
+#include hardware/qcom/bt/Android.mk
+#include hardware/qcom/camera/Android.mk
+#include hardware/qcom/display/Android.mk
+#include hardware/qcom/display/libgenlock/Android.mk
+#include hardware/qcom/display/libcopybit/Android.mk
+#include hardware/qcom/display/libexternal/Android.mk
+#include hardware/qcom/display/libgralloc/Android.mk
+#include hardware/qcom/display/libhwcomposer/Android.mk
+#include hardware/qcom/display/liblight/Android.mk
+#include hardware/qcom/display/liboverlay/Android.mk
+#include hardware/qcom/display/libqdutils/Android.mk
+#include hardware/qcom/display/libqservice/Android.mk
+#include hardware/qcom/display/libtilerenderer/Android.mk
+
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/gemini/BoardConfigVendor.mk
