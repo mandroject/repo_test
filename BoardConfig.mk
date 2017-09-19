@@ -231,6 +231,8 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 TARGET_CRYPTFS_HW_PATH := vendor/qcom/opensource/cryptfs_hw
 # FIXING KERNEL CONFIG
 CONFIG_KERNEL_MODULES=true
+CONFIG_MODULE_UNLOAD=true
+CONFIG_MODULES=true
 # QCOM
 #include hardware/qcom/msm8996/msm8996.mk
 #include hardware/qcom/audio/Android.mk
