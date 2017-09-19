@@ -18,7 +18,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/xiaomi/msm8996-common/msm8996-common-vendor.mk)
+$(call inherit-product, vendor/xiaomi/gemini/gemini-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
